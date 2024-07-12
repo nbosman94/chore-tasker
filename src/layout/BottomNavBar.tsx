@@ -4,7 +4,6 @@ import PersonIcon from "@mui/icons-material/Person";
 import AssignmentIcon from "@mui/icons-material/Assignment";
 import GroupsIcon from "@mui/icons-material/Groups";
 import { Link } from "react-router-dom";
-import PhoneDetails from "../components/layout/PhoneDetails";
 
 type NavBarLayoutProps = {
   children: ReactNode;
@@ -53,7 +52,7 @@ const BottomNavBar: React.FC<NavBarLayoutProps> = ({ children }) => {
         <BottomNavigation
           showLabels
           value={value}
-          onChange={(event, newValue) => {
+          onChange={(_event, newValue) => {
             setValue(newValue);
           }}
         >

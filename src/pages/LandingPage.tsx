@@ -2,7 +2,7 @@ import { Box } from "@mui/material";
 import family from "../assets/familychores.png";
 import LoginPage from "./LoginPage";
 import { useState } from "react";
-import { Navigate, useNavigate } from "react-router";
+import { useNavigate } from "react-router";
 
 const LandingPage = () => {
   const [isLogin, setIsLogin] = useState(false);

@@ -1,13 +1,6 @@
 import { Box, Chip, Stack } from "@mui/material";
-import { useState } from "react";
 
 export default function TabSelector() {
-  const [value, setValue] = useState("1");
-
-  const handleChange = (event: React.SyntheticEvent, newValue: string) => {
-    setValue(newValue);
-  };
-
   const handleClick = () => {};
 
   return (

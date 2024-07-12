@@ -12,7 +12,6 @@ import PersonIcon from "@mui/icons-material/Person";
 import AssignmentIcon from "@mui/icons-material/Assignment";
 import GroupsIcon from "@mui/icons-material/Groups";
 import { ReactNode } from "react";
-import TopNavBarLayout from "./TopNavBarLayout";
 
 type NavBarLayoutProps = {
   children: ReactNode;
